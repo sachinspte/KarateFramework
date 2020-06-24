@@ -1615,3 +1615,186 @@
 }
 
 23:46:46.808 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 2: src/main/java/com/an/qa/Features/userDetails1.feature
+00:38:15.517 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+00:38:16.016 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<fail>> feature 3 of 3: src/main/java/com/an/qa/Features/userDetailsPost.feature
+00:40:08.191 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+00:40:08.306 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<fail>> feature 3 of 3: src/main/java/com/an/qa/Features/userDetailsPost.feature
+00:42:39.634 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+00:42:41.721 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
+{"name":"morpheus","job":"leader"}
+
+00:42:42.857 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1133.53
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a88c30beaeddbf3-LHR
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 24 Jun 2020 19:12:42 GMT
+1 < Etag: W/"54-MGzegl6SENrJ8wL/J9Iij9ipM+M"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d98acc47a82bbf94ff0abd6f0c612a14f1593025962; expires=Fri, 24-Jul-20 19:12:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0389583b6f0000dbf37499f200000001
+{"name":"morpheus","job":"leader","id":"534","createdAt":"2020-06-24T19:12:42.900Z"}
+
+00:42:42.927 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 3: src/main/java/com/an/qa/Features/userDetailsPost.feature
+00:45:48.973 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+00:45:49.463 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<fail>> feature 3 of 3: src/main/java/com/an/qa/Features/userDetailsPost.feature
+00:47:08.349 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+00:47:08.512 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<fail>> feature 3 of 3: src/main/java/com/an/qa/Features/userDetailsPost.feature
+00:48:06.187 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+00:48:06.464 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<fail>> feature 3 of 3: src/main/java/com/an/qa/Features/userDetailsPost.feature
+00:48:28.704 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+00:48:30.664 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
+{"name":"morpheus","job":"leader"}
+
+00:48:32.023 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1355.92
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a88cb924df00736-LHR
+1 < Connection: keep-alive
+1 < Content-Length: 83
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 24 Jun 2020 19:18:32 GMT
+1 < Etag: W/"53-Hk2BbJMkUr+fhTpSkfppOj2sXNY"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=de3d8de1ea91f0f0cb796b5bec283b4831593026312; expires=Fri, 24-Jul-20 19:18:32 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 03895d8f7100000736ee2b0200000001
+{"name":"morpheus","job":"leader","id":"33","createdAt":"2020-06-24T19:18:32.083Z"}
+
+00:48:32.090 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 3: src/main/java/com/an/qa/Features/userDetailsPost.feature
+00:49:24.723 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+00:49:25.595 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
+{"name":"morpheus","job":"leader"}
+
+00:49:26.494 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 897.15
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a88cce6db35ce1f-LHR
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 24 Jun 2020 19:19:26 GMT
+1 < Etag: W/"54-jJod2TK11/T1YP+DoBzUr9bWqm4"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d3cc9a6a34900f523d4ec6ced319dcd9f1593026366; expires=Fri, 24-Jul-20 19:19:26 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 03895e64490000ce1f8e9c1200000001
+{"name":"morpheus","job":"leader","id":"337","createdAt":"2020-06-24T19:19:26.574Z"}
+
+00:49:26.498 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "name": "morpheus",
+  "job": "leader",
+  "id": "337",
+  "createdAt": "2020-06-24T19:19:26.574Z"
+}
+
+00:49:26.592 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 3: src/main/java/com/an/qa/Features/userDetailsPost.feature
+00:54:47.822 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+00:54:49.434 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
+{"name":"morpheus","job":"leader"}
+
+00:54:50.541 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1104.24
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a88d4cfee18ce8f-LHR
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 24 Jun 2020 19:24:50 GMT
+1 < Etag: W/"54-8Y08LyHPlhV9mZZj8FKzyVtsjLM"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=de58558f8fd622d99ded7ae3ccd2610441593026690; expires=Fri, 24-Jul-20 19:24:50 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 03896355f30000ce8f3d2e6200000001
+{"name":"morpheus","job":"leader","id":"794","createdAt":"2020-06-24T19:24:50.594Z"}
+
+00:54:50.544 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "name": "morpheus",
+  "job": "leader",
+  "id": "794",
+  "createdAt": "2020-06-24T19:24:50.594Z"
+}
+
+00:54:50.824 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 3: src/main/java/com/an/qa/Features/userDetailsPost.feature
+00:59:14.417 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+00:59:15.717 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users?delay=3
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
+{"name":"morpheus","job":"leader"}
+
+00:59:19.662 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 3941.60
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5a88db4f6c5dce3b-LHR
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 24 Jun 2020 19:29:19 GMT
+1 < Etag: W/"54-+udXFaxES7adNoawFkcHSIbLpA4"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=db7c8e86fb587312ea2bd60c9fcde616c1593026956; expires=Fri, 24-Jul-20 19:29:16 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 03896765a10000ce3bdd30f200000001
+{"name":"morpheus","job":"leader","id":"792","createdAt":"2020-06-24T19:29:19.743Z"}
+
+00:59:19.665 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "name": "morpheus",
+  "job": "leader",
+  "id": "792",
+  "createdAt": "2020-06-24T19:29:19.743Z"
+}
+
+00:59:19.729 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 3: src/main/java/com/an/qa/Features/userDetailsPost.feature

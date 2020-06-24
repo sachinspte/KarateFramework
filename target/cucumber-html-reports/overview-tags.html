@@ -49,28 +49,28 @@ $(document).ready(function() {
   $(document).ready(function() {
 
     var chartData = {
-        labels:  [ "@ignore", ] ,
+        labels:  [ "@Sanity",  "@ignore", ] ,
         datasets: [
             {
                 label: "Passed",
                 backgroundColor: "#92DD96",
-                data:  [ 100.00, ]             },
+                data:  [ 100.00,  100.00, ]             },
             {
                 label: "Failed",
                 backgroundColor: "#F2928C",
-                data:  [ 0.00, ]             },
+                data:  [ 0.00,  0.00, ]             },
             {
                 label: "Skipped",
                 backgroundColor: "#8AF",
-                data:  [ 0.00, ]             },
+                data:  [ 0.00,  0.00, ]             },
             {
                 label: "Pending",
                 backgroundColor: "#F5F28F",
-                data:  [ 0.00, ]             },
+                data:  [ 0.00,  0.00, ]             },
             {
                 label: "Undefined",
                 backgroundColor: "#F5B975",
-                data:  [ 0.00, ]             }
+                data:  [ 0.00,  0.00, ]             }
         ]
     };
 
@@ -129,7 +129,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Karate_WIP_api</td>
-            <td>24 Jun 2020, 23:46</td>
+            <td>25 Jun 2020, 00:59</td>
     </tr>
   </tbody>
 </table>
@@ -191,6 +191,23 @@ $(document).ready(function() {
 
   <tbody>
           <tr>
+        <td class="tagname"><a href="report-tag_Sanity.html">@Sanity</a></td>
+        
+        <td      class="passed"    >6</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">6</td>
+
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+
+        <td class="duration" data-value="5138226100">5s 138ms</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
         <td class="tagname"><a href="report-tag_ignore.html">@ignore</a></td>
         
         <td      class="passed"    >11</td>
@@ -211,19 +228,19 @@ $(document).ready(function() {
 
   <tfoot class="total">
     <tr>
-      <td>1</td>
-            <td>11</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>11</td>
-
       <td>2</td>
+            <td>17</td>
       <td>0</td>
-      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>17</td>
 
-      <td class="duration">14s 369ms</td>
+      <td>3</td>
+      <td>0</td>
+      <td>3</td>
+
+      <td class="duration">19s 507ms</td>
       <td></td>
     </tr>
     <tr>

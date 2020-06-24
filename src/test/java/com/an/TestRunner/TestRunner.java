@@ -18,7 +18,7 @@ import org.junit.Test;
 //https://github.com/intuit/karate/blob/master/karate-demo/src/test/java/demo/DemoTestParallel.java
 
 //@RunWith(Karate.class)
-@CucumberOptions(features ="src/main/java/com/an/qa/Features",tags = {"@ignore"})
+@CucumberOptions(features ="src/main/java/com/an/qa/Features",tags = {"@Sanity"})
 public class TestRunner 
 {
 	 @Test
