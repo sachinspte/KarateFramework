@@ -1,7 +1,7 @@
 Feature: test
 Background:
 * url 'https://gorest.co.in'  
-* header Authorization = 'Bearer MdtgQngBl_vIZ9zuV5NNcW1BR7IHlPvhY7KD'
+* header Authorization = ''
 
 Scenario: list all users having first name with johnson
 #scenario: list all users having first name with johnson
