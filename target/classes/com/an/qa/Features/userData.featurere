@@ -1,0 +1,16 @@
+Feature: test
+Background:
+* url 'https://gorest.co.in'  
+* header Authorization = 'Bearer MdtgQngBl_vIZ9zuV5NNcW1BR7IHlPvhY7KD'
+
+Scenario: list all users having first name with johnson
+#scenario: list all users having first name with johnson
+ 
+Given path '/public-api/users'
+
+And param first_name = 'john'
+And param status = 'inactive'
+
+When method get
+
+Then status 200	

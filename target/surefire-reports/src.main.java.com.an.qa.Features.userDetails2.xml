@@ -1,0 +1,14 @@
+<testsuite failures="0" name="src/main/java/com/an/qa/Features/userDetails2.feature" skipped="0" tests="1" time="4.963219">
+  <testcase classname="src.main.java.com.an.qa.Features.userDetails2" name="Request user 2 with get Call" time="4.963219">
+    <system-out>* def expectedOutput = read ('../resourses/result.json') .................. passed
+* def result = call read('userDetails1.feature') .......................... passed
+Given url 'https://reqres.in/api/users/3' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed
+And match response == expectedOutput[1] ................................... passed
+Then print 'results====&gt;',result .......................................... passed
+* def first_name = result.response.data.first_name ........................ passed
+Then print 'print first name',first_name .................................. passed</system-out>
+  </testcase>
+</testsuite>
