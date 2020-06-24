@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Karate_WIP_api</td>
-            <td>24 Jun 2020, 23:29</td>
+            <td>24 Jun 2020, 23:46</td>
     </tr>
   </tbody>
 </table>
@@ -128,18 +128,18 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">src/main/java/com/an/qa/Features/userDetails1.feature</td>
-                    <td      class="passed"    >12</td>
+                    <td      class="passed"    >15</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">12</td>
+          <td class="total">15</td>
 
           <td  class="passed"    >2</td>
           <td >0</td>
           <td class="total">2</td>
 
-          <td class="duration" data-value="3749666700">3s 749ms</td>
+          <td class="duration" data-value="14576079001">14s 576ms</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -192,7 +192,7 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">060ms</span>
+  <span class="lead-duration duration">102ms</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -233,7 +233,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def expectedOutput = read ('../resourses/result.json')</span>
   
-  <span class="lead-duration duration">060ms</span>
+  <span class="lead-duration duration">090ms</span>
 
   </div>
 
@@ -248,7 +248,43 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>23:29:04.840 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</pre>
+        <pre>23:46:33.572 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def sleep =</span>
+  
+  <span class="lead-duration duration">012ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>function(seconds){
+for(i=0;i&lt;=seconds;i++)
+{
+java.lang.Thread.sleep(1*1000)
+}
+}</pre>
       </div>
     </div>
   </div>
@@ -275,10 +311,10 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">1s 820ms</span>
+  <span class="lead-duration duration">12s 735ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
@@ -291,13 +327,13 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-4" class="collapse collapsable-details ">
+  <div id="element-5" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-5">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-6">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -309,306 +345,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-5" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">url 'https://reqres.in/api/users/2'</span>
-  
-  <span class="lead-duration duration">005ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">method GET</span>
-  
-  <span class="lead-duration duration">1s 774ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-6">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-6" class="collapse collapsable-details">
-        <pre>23:29:05.703 request:
-1 &gt; GET https://reqres.in/api/users/2
-1 &gt; Accept-Encoding: gzip,deflate
-1 &gt; Connection: Keep-Alive
-1 &gt; Host: reqres.in
-1 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
-
-23:29:06.685 response time in milliseconds: 969.83
-1 &lt; 200
-1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Age: 6752
-1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 5a88573ab8d1bbac-LHR
-1 &lt; Cache-Control: max-age=14400
-1 &lt; Connection: keep-alive
-1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Wed, 24 Jun 2020 17:59:06 GMT
-1 &lt; Etag: W/&quot;173-1Z8bn0V7UjH6FK7NCaza1ccWXQk&quot;
-1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
-1 &lt; Server: cloudflare
-1 &lt; Set-Cookie: __cfduid=d9f00c8eee4e5e518ceb7457392d175721593021546; expires=Fri, 24-Jul-20 17:59:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Vary: Accept-Encoding
-1 &lt; Via: 1.1 vegur
-1 &lt; X-Powered-By: Express
-1 &lt; cf-request-id: 038914d8b10000bbac01238200000001
-{&quot;data&quot;:{&quot;id&quot;:2,&quot;email&quot;:&quot;janet.weaver@reqres.in&quot;,&quot;first_name&quot;:&quot;Janet&quot;,&quot;last_name&quot;:&quot;Weaver&quot;,&quot;avatar&quot;:&quot;https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg&quot;},&quot;ad&quot;:{&quot;company&quot;:&quot;StatusCode Weekly&quot;,&quot;url&quot;:&quot;http://statuscode.org/&quot;,&quot;text&quot;:&quot;A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.&quot;}}</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">status 200</span>
-  
-  <span class="lead-duration duration">000ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">print response</span>
-  
-  <span class="lead-duration duration">001ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-7" class="collapse collapsable-details">
-        <pre>23:29:06.697 [print] {
-  &quot;data&quot;: {
-    &quot;id&quot;: 2,
-    &quot;email&quot;: &quot;janet.weaver@reqres.in&quot;,
-    &quot;first_name&quot;: &quot;Janet&quot;,
-    &quot;last_name&quot;: &quot;Weaver&quot;,
-    &quot;avatar&quot;: &quot;https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg&quot;
-  },
-  &quot;ad&quot;: {
-    &quot;company&quot;: &quot;StatusCode Weekly&quot;,
-    &quot;url&quot;: &quot;http://statuscode.org/&quot;,
-    &quot;text&quot;: &quot;A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.&quot;
-  }
-}</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">match response == expectedOutput[0]</span>
-  
-  <span class="lead-duration duration">038ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-      </div>
-      </div>
-</div>
-
-
-    
-
-  </div>
-</div>
-
-                      
-<div class="element">
-  
-  
-<div class="tags indention">
-  </div>
-
-  
-  <span class="lead-duration duration">060ms</span>
-
-
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-8">
-    
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-8" class="collapse collapsable-details ">
-    
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-9">
-    
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-9" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def expectedOutput = read ('../resourses/result.json')</span>
-  
-  <span class="lead-duration duration">060ms</span>
-
-  </div>
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-10">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-10" class="collapse collapsable-details">
-        <pre>23:29:04.840 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-      </div>
-      </div>
-</div>
-
-
-    
-
-  </div>
-</div>
-
-                      
-<div class="element">
-  
-  
-<div class="tags indention">
-  </div>
-
-  
-  <span class="lead-duration duration">1s 807ms</span>
-
-
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
-    
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Request user 1 with get Call 1</span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-11" class="collapse collapsable-details ">
-    
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-12">
-    
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-12" class="inner-level collapse collapsable-details ">
+  <div id="steps-6" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
@@ -636,7 +373,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method GET</span>
   
-  <span class="lead-duration duration">1s 776ms</span>
+  <span class="lead-duration duration">1s 637ms</span>
 
   </div>
 
@@ -647,36 +384,36 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-13">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
           <a>Doc string</a>
       </div>
-      <div id="msg-13" class="collapse collapsable-details">
-        <pre>23:29:05.703 request:
+      <div id="msg-7" class="collapse collapsable-details">
+        <pre>23:46:34.660 request:
 1 &gt; GET https://reqres.in/api/users/2
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
 1 &gt; Host: reqres.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
 
-23:29:06.694 response time in milliseconds: 970.79
+23:46:35.331 response time in milliseconds: 670.73
 1 &lt; 200
 1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Age: 6752
+1 &lt; Age: 1944
 1 &lt; CF-Cache-Status: HIT
-1 &lt; CF-RAY: 5a88573abbd4f3ef-LHR
+1 &lt; CF-RAY: 5a8870d55f70e135-BOM
 1 &lt; Cache-Control: max-age=14400
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Wed, 24 Jun 2020 17:59:06 GMT
+1 &lt; Date: Wed, 24 Jun 2020 18:16:35 GMT
 1 &lt; Etag: W/&quot;173-1Z8bn0V7UjH6FK7NCaza1ccWXQk&quot;
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; Server: cloudflare
-1 &lt; Set-Cookie: __cfduid=d467cab9163da1d5d24f5967ca69b15ca1593021546; expires=Fri, 24-Jul-20 17:59:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 &lt; Set-Cookie: __cfduid=d471b1d29b272ba6f6d34b7088b5dc4331593022595; expires=Fri, 24-Jul-20 18:16:35 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
 1 &lt; Via: 1.1 vegur
 1 &lt; X-Powered-By: Express
-1 &lt; cf-request-id: 038914d8b00000f3ef5504c200000001
+1 &lt; cf-request-id: 038924d9590000e1359683c200000001
 {&quot;data&quot;:{&quot;id&quot;:2,&quot;email&quot;:&quot;janet.weaver@reqres.in&quot;,&quot;first_name&quot;:&quot;Janet&quot;,&quot;last_name&quot;:&quot;Weaver&quot;,&quot;avatar&quot;:&quot;https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg&quot;},&quot;ad&quot;:{&quot;company&quot;:&quot;StatusCode Weekly&quot;,&quot;url&quot;:&quot;http://statuscode.org/&quot;,&quot;text&quot;:&quot;A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.&quot;}}</pre>
       </div>
     </div>
@@ -714,7 +451,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print response</span>
   
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -725,11 +462,11 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-14">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-8">
           <a>Doc string</a>
       </div>
-      <div id="msg-14" class="collapse collapsable-details">
-        <pre>23:29:06.710 [print] {
+      <div id="msg-8" class="collapse collapsable-details">
+        <pre>23:46:35.332 [print] {
   &quot;data&quot;: {
     &quot;id&quot;: 2,
     &quot;email&quot;: &quot;janet.weaver@reqres.in&quot;,
@@ -758,7 +495,363 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">match response == expectedOutput[0]</span>
   
-  <span class="lead-duration duration">025ms</span>
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">call sleep 10</span>
+  
+  <span class="lead-duration duration">11s 093ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">104ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-9" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-10">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-10" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedOutput = read ('../resourses/result.json')</span>
+  
+  <span class="lead-duration duration">090ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-11">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-11" class="collapse collapsable-details">
+        <pre>23:46:33.572 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def sleep =</span>
+  
+  <span class="lead-duration duration">014ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-12">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-12" class="collapse collapsable-details">
+        <pre>function(seconds){
+for(i=0;i&lt;=seconds;i++)
+{
+java.lang.Thread.sleep(1*1000)
+}
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">1s 634ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Request user 1 with get Call 1</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-13" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-14">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-14" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url 'https://reqres.in/api/users/2'</span>
+  
+  <span class="lead-duration duration">003ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method GET</span>
+  
+  <span class="lead-duration duration">1s 607ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-15">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-15" class="collapse collapsable-details">
+        <pre>23:46:34.660 request:
+1 &gt; GET https://reqres.in/api/users/2
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: reqres.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
+
+23:46:35.300 response time in milliseconds: 636.25
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Age: 1944
+1 &lt; CF-Cache-Status: HIT
+1 &lt; CF-RAY: 5a8870d55c75e14a-BOM
+1 &lt; Cache-Control: max-age=14400
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Wed, 24 Jun 2020 18:16:35 GMT
+1 &lt; Etag: W/&quot;173-1Z8bn0V7UjH6FK7NCaza1ccWXQk&quot;
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: __cfduid=d8544bc47712956a54ec13e78bcc3a4f91593022595; expires=Fri, 24-Jul-20 18:16:35 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Accept-Encoding
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Powered-By: Express
+1 &lt; cf-request-id: 038924d9550000e14a31317200000001
+{&quot;data&quot;:{&quot;id&quot;:2,&quot;email&quot;:&quot;janet.weaver@reqres.in&quot;,&quot;first_name&quot;:&quot;Janet&quot;,&quot;last_name&quot;:&quot;Weaver&quot;,&quot;avatar&quot;:&quot;https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg&quot;},&quot;ad&quot;:{&quot;company&quot;:&quot;StatusCode Weekly&quot;,&quot;url&quot;:&quot;http://statuscode.org/&quot;,&quot;text&quot;:&quot;A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.&quot;}}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-16">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-16" class="collapse collapsable-details">
+        <pre>23:46:35.303 [print] {
+  &quot;data&quot;: {
+    &quot;id&quot;: 2,
+    &quot;email&quot;: &quot;janet.weaver@reqres.in&quot;,
+    &quot;first_name&quot;: &quot;Janet&quot;,
+    &quot;last_name&quot;: &quot;Weaver&quot;,
+    &quot;avatar&quot;: &quot;https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg&quot;
+  },
+  &quot;ad&quot;: {
+    &quot;company&quot;: &quot;StatusCode Weekly&quot;,
+    &quot;url&quot;: &quot;http://statuscode.org/&quot;,
+    &quot;text&quot;: &quot;A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.&quot;
+  }
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match response == expectedOutput[0]</span>
+  
+  <span class="lead-duration duration">022ms</span>
 
   </div>
 
